@@ -9,7 +9,7 @@ Olympus is an open-source hardware and software platform designed for study, exp
 
 The project was created with the goal of developing a modular platform that allows the study of how to build systems capable of monitoring their own operation, identifying anomalous behaviors, and reacting to potential faults by combining traditional safety mechanisms with artificial intelligence techniques.
 
-The platform integrates various specialized boards, including a RISC-V-based processing system, a power board, and an FPGA dedicated to supervision functions. This architecture allows experimentation with different processing levels, monitoring mechanisms, workload isolation, and fault recovery strategies.
+The platform integrates various specialized boards, including an advanced ARM based processing system with two RISC-V cores , a power board, and an AI dedicated board. This architecture allows experimentation with different processing levels, monitoring mechanisms, workload isolation, and fault recovery strategies.
 
 One of Olympus's main objectives is to research how to train and deploy compact AI models capable of running with limited computational and energy resources to detect anomalies, identify fault-related patterns, and contribute to their prevention or mitigation.
 
@@ -53,7 +53,7 @@ The ultimate objective is not only to detect when a system has failed, but to in
 ---
 
 ## Target Audience
-Olympus is aimed at embedded systems developers, students, researchers, and professionals interested in open hardware, embedded Linux, real-time operating systems (RTOS), FPGAs, artificial intelligence, and critical systems.
+Olympus is aimed at embedded systems developers, students, researchers, and professionals interested in open hardware, embedded Linux, real-time operating systems, FPGAs, artificial intelligence and critical systems.
 
 Although the project is primarily oriented toward individuals with some technical background, the documentation is designed to facilitate progressive learning, ranging from hardware bring-up to the development of advanced fault detection and mitigation experiments.
 
@@ -72,8 +72,8 @@ To facilitate the development, integration, and evaluation of the platform, Olym
 ---
 
 ## Project Philosophy
-Olympus is intended to be an open platform for learning, experimentation, and research, rather than a certified safety-ready system for deployment in critical applications.
+Olympus is intended to be an open platform for learning, experimentation and research, rather than a certified safety-ready system for deployment in critical applications.
 
 AI-based detection mechanisms will be studied as complementary tools to conventional supervision and safety mechanisms. Their results must be evaluated experimentally, paying special attention to false positives, false negatives, response times, and behavior under unexpected faults.
 
-The ultimate purpose is to contribute to the development of more observable, resilient, and fault-manageable embedded systems by sharing designs, tools, documentation, and results that can benefit the entire community.
+The ultimate purpose is to contribute to the development of more observable, resilient, and fault-manageable embedded systems by sharing designs, tools, documentation and results that can benefit the entire community.
